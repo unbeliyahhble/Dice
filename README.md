@@ -5,41 +5,9 @@ In this assignment we'll practice using OOP (Object Oriented Programming) techni
 
 Suggested steps to start the assignment
 ------------------------------------------   
-1. Start by forking [this repository](https://github.com/APCSLowell/Dice). Open the pde file and you should see the following code:
-
-```java
-        void setup()
-	{
-	    noLoop();
-	}
-	void draw()
-	{
-	    //your code here
-	}
-	void mousePressed()
-	{
-	    redraw();
-	}
-	class Die //models one single dice cube
-	{
-	    //member variable declarations here
-	    
-	    Die(int x, int y) //constructor
-	    {
-	        //variable initializations here
-	    }
-	    void roll()
-	    {
-	        //your code here
-	    }
-	    void show()
-	    {
-	        //your code here
-	    }
-	}
-```
+1. Start by forking [this repository](https://github.com/APCSLowell/Dice). Open the pde file and copy the code
 2. Write the member variable declarations for the `Die` class
-2. Then, write code in the constructor to initialize the member variables
+3. Then, write code in the constructor to initialize the member variables
 2. Next, complete the `draw()` function. For now it should:  
      - make a `background()` on the screen
      - declare and initialize one instance of the `Die` class
